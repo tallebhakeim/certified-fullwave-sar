@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Computable two-sided error bounds on the specific absorption rate in full-wave dosimetry: source code"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/tallebhakeim/certified-fullwave-sar"
+authors:
+  - family-names: Talleb
+    given-names: Hakeim
+    orcid: "https://orcid.org/0000-0002-2734-6242"
+    affiliation: "Sorbonne Université, CNRS, GeePs, Paris; Université Paris-Saclay, CentraleSupélec, CNRS, GeePs, Gif-sur-Yvette, France"

@@ -1,0 +1,23 @@
+{
+  "title": "Computable two-sided error bounds on the specific absorption rate in full-wave dosimetry: source code",
+  "upload_type": "software",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Source code for the manuscript 'Computable two-sided error bounds on the specific absorption rate in full-wave dosimetry: a goal-oriented framework validated in one, two and three dimensions' (H. Talleb, Physics in Medicine & Biology, PMB-122013, revision R1): full-wave edge-element dosimetry and goal-oriented two-sided bounds on the absorbed power and on the peak 10 g spatial-average SAR in one, two and three dimensions.",
+  "creators": [
+    {
+      "name": "Talleb, Hakeim",
+      "affiliation": "Sorbonne Université, CNRS, GeePs, Paris; Université Paris-Saclay, CentraleSupélec, CNRS, GeePs, Gif-sur-Yvette, France",
+      "orcid": "0000-0002-2734-6242"
+    }
+  ],
+  "keywords": [
+    "radiofrequency dosimetry",
+    "specific absorption rate",
+    "a posteriori error estimation",
+    "goal-oriented error estimation",
+    "inf-sup stability",
+    "edge finite elements",
+    "perfectly matched layer"
+  ]
+}

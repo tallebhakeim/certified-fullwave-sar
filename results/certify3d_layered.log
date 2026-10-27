@@ -1,0 +1,5 @@
+=== 3D bracket, skin/fat/muscle stack, 2 GHz, exact layered reference ===
+exact P_abs = 1.578287e-07 W (per (V/m)^2 incident)
+N=  5 h= 5.00mm edges=   604/   4184 P_h=1.4746e-07 [-3.7678e-07,1.9276e-06] in=True beta=0.1150 width= 1460.02% lin=5.24e-07 quad=1.26e-06 (0s)
+N=  9 h= 2.50mm edges=  4184/  31024 P_h=1.5535e-07 [-4.6751e-08,9.2374e-07] in=True beta=0.0985 width=  614.90% lin=2.02e-07 quad=5.66e-07 (17s)
+N= 13 h= 1.67mm edges= 13428/ 102024 P_h=1.5674e-07 [6.1138e-08,5.2068e-07] in=True beta=0.0985 width=  291.17% lin=9.56e-08 quad=2.68e-07 (2125s)
