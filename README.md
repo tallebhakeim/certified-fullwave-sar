@@ -1,5 +1,7 @@
 # Computable two-sided error bounds on the SAR in full-wave dosimetry
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23710646.svg)](https://doi.org/10.5281/zenodo.23710646)
+
 Source code for the manuscript *Computable two-sided error bounds on the specific absorption rate in full-wave dosimetry: a goal-oriented framework validated in one, two and three dimensions* (H. Talleb, Physics in Medicine & Biology,
 manuscript PMB-122013, revised version R1). Every number, table and figure of the revised
 manuscript is produced by the scripts in this repository.
@@ -53,7 +55,7 @@ from the folder given by the environment variable `XCAT_DIR`.
 
 ## Citation
 
-DOI to be added after the first Zenodo release.
+Talleb H 2026 *Computable two-sided error bounds on the specific absorption rate in full-wave dosimetry: source code* (version 1.0.0) Zenodo https://doi.org/10.5281/zenodo.23710647
 
 ## Licence
 
