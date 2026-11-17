@@ -68,7 +68,7 @@ from the folder given by the environment variable `XCAT_DIR`.
 
 ## Citation
 
-Talleb H 2026 *Goal-oriented two-sided error bounds on the specific absorption rate in full-wave dosimetry: source code* (version 1.1.0) Zenodo https://doi.org/10.5281/zenodo.23710646
+Talleb H 2026 *Goal-oriented two-sided error bounds on the specific absorption rate in full-wave dosimetry: source code* (version 1.1.0) Zenodo https://doi.org/10.5281/zenodo.24325694
 
 ## Licence
 
