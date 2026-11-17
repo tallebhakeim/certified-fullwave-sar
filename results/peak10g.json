@@ -120,66 +120,66 @@
    "S": 89.90304378813713,
    "true_peak": 1.8,
    "decisions": [
-    "INDETERMINATE",
-    "PASS",
-    "PASS",
-    "PASS",
-    "PASS"
+    "unresolved",
+    "below",
+    "below",
+    "below",
+    "below"
    ]
   },
   "0.95": {
    "S": 94.89765733192252,
    "true_peak": 1.9,
    "decisions": [
-    "INDETERMINATE",
-    "INDETERMINATE",
-    "PASS",
-    "PASS",
-    "PASS"
+    "unresolved",
+    "unresolved",
+    "below",
+    "below",
+    "below"
    ]
   },
   "0.99": {
    "S": 98.89334816695084,
    "true_peak": 1.9800000000000002,
    "decisions": [
-    "INDETERMINATE",
-    "INDETERMINATE",
-    "INDETERMINATE",
-    "PASS",
-    "PASS"
+    "unresolved",
+    "unresolved",
+    "unresolved",
+    "below",
+    "below"
    ]
   },
   "1.01": {
    "S": 100.891193584465,
    "true_peak": 2.0200000000000005,
    "decisions": [
-    "INDETERMINATE",
-    "INDETERMINATE",
-    "INDETERMINATE",
-    "FAIL",
-    "FAIL"
+    "unresolved",
+    "unresolved",
+    "unresolved",
+    "above",
+    "above"
    ]
   },
   "1.05": {
    "S": 104.88688441949333,
    "true_peak": 2.1000000000000005,
    "decisions": [
-    "INDETERMINATE",
-    "INDETERMINATE",
-    "FAIL",
-    "FAIL",
-    "FAIL"
+    "unresolved",
+    "unresolved",
+    "above",
+    "above",
+    "above"
    ]
   },
   "1.10": {
    "S": 109.88149796327872,
    "true_peak": 2.2,
    "decisions": [
-    "INDETERMINATE",
-    "FAIL",
-    "FAIL",
-    "FAIL",
-    "FAIL"
+    "unresolved",
+    "above",
+    "above",
+    "above",
+    "above"
    ]
   }
  }

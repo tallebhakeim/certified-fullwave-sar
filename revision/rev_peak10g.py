@@ -1,6 +1,6 @@
 """Revision R1: peak 10 g-averaged SAR (psSAR10g) bracket under refinement, the
-max-over-windows lemma checked numerically, and the pass / fail / indeterminate
-decision rule near the 2 W/kg local limit.
+max-over-windows lemma checked numerically, and the
+decision rule (below / above the limit / unresolved) near the 2 W/kg local limit.
 Outputs: results/peak10g.json, figures/fig_peak10g.png"""
 import json
 import numpy as np
@@ -53,8 +53,8 @@ def main():
     Sstar = LIMIT / (2 * ETA0 * ref.max())          # exposure at which the true peak = limit
     dec = []
     for r in rows:
-        S_pass = LIMIT / (2 * ETA0 * r["peak_hi"])  # below: certified PASS
-        S_fail = LIMIT / (2 * ETA0 * r["peak_lo"])  # above: certified FAIL
+        S_pass = LIMIT / (2 * ETA0 * r["peak_hi"])  # below: below the limit
+        S_fail = LIMIT / (2 * ETA0 * r["peak_lo"])  # above: above the limit
         dec.append(dict(frac=r["frac"], h_mm=r["h_mm"], S_pass=S_pass, S_fail=S_fail,
                         band_lo_rel=S_pass / Sstar, band_hi_rel=S_fail / Sstar))
     scen = {}
@@ -63,7 +63,7 @@ def main():
         out = []
         for r in rows:
             lo_, hi_ = 2 * ETA0 * S * r["peak_lo"], 2 * ETA0 * S * r["peak_hi"]
-            out.append("PASS" if hi_ <= LIMIT else ("FAIL" if lo_ > LIMIT else "INDETERMINATE"))
+            out.append("below" if hi_ <= LIMIT else ("above" if lo_ > LIMIT else "unresolved"))
         scen[f"{rel:.2f}"] = dict(S=S, true_peak=2 * ETA0 * S * ref.max(), decisions=out)
         print("S = %.3f S* (%.1f W/m2, true peak %.3f W/kg): %s" %
               (rel, S, 2 * ETA0 * S * ref.max(), out))
@@ -95,11 +95,11 @@ def main():
     ax[0].legend(loc="upper right")
     h = np.array([d["h_mm"] for d in dec])
     ax[1].fill_between(h, [d["band_lo_rel"] for d in dec], [d["band_hi_rel"] for d in dec],
-                       color="0.7", label="indeterminate")
+                       color="0.7", label="unresolved")
     ax[1].axhline(1.0, color="k", lw=0.8)
     ax[1].set_xscale("log")
-    ax[1].text(h[0] * 0.9, 0.93, "PASS", ha="right", fontsize=8)
-    ax[1].text(h[0] * 0.9, 1.05, "FAIL", ha="right", fontsize=8)
+    ax[1].text(h[0] * 0.9, 0.93, "below the limit", ha="right", fontsize=8)
+    ax[1].text(h[0] * 0.9, 1.05, "above the limit", ha="right", fontsize=8)
     ax[1].set_ylim(0.85, 1.15)
     ax[1].set_xlabel("element size $h$ (mm)")
     ax[1].set_ylabel(r"exposure level $S/S^\ast$")

@@ -1,0 +1,76 @@
+{
+ "ref_peak": 2.6572813939606835e-05,
+ "gamma_minus": 0.2446269699296384,
+ "rows": [
+  {
+   "frac": 16,
+   "n_windows": 98,
+   "n_adjoint": 17,
+   "crude_peak_lo": 1.667723482228335e-05,
+   "crude_peak_hi": 3.803560653575536e-05,
+   "crude_width_pct": 80.37677816889884,
+   "crude_all_contain": true,
+   "peak_lo": 2.0364908219891282e-05,
+   "peak_hi": 3.326266468888691e-05,
+   "width_pct": 48.53741308056012,
+   "peak_contains": true,
+   "all_windows_contain": true
+  },
+  {
+   "frac": 32,
+   "n_windows": 98,
+   "n_adjoint": 4,
+   "crude_peak_lo": 2.167987337125505e-05,
+   "crude_peak_hi": 3.179516316736614e-05,
+   "crude_width_pct": 38.066310248890225,
+   "crude_all_contain": true,
+   "peak_lo": 2.5145981179099337e-05,
+   "peak_hi": 2.808770182619246e-05,
+   "width_pct": 11.070414498738804,
+   "peak_contains": true,
+   "all_windows_contain": true
+  },
+  {
+   "frac": 64,
+   "n_windows": 98,
+   "n_adjoint": 2,
+   "crude_peak_lo": 2.4154816860600367e-05,
+   "crude_peak_hi": 2.9065853956293557e-05,
+   "crude_width_pct": 18.48143409597009,
+   "crude_all_contain": true,
+   "peak_lo": 2.6232505101789542e-05,
+   "peak_hi": 2.6931397718121268e-05,
+   "width_pct": 2.6301039021314367,
+   "peak_contains": true,
+   "all_windows_contain": true
+  },
+  {
+   "frac": 128,
+   "n_windows": 98,
+   "n_adjoint": 1,
+   "crude_peak_lo": 2.5359893755945923e-05,
+   "crude_peak_hi": 2.7803891817707645e-05,
+   "crude_width_pct": 9.197362640314651,
+   "crude_all_contain": true,
+   "peak_lo": 2.648787374916134e-05,
+   "peak_hi": 2.6661860234635875e-05,
+   "width_pct": 0.6547537113305418,
+   "peak_contains": true,
+   "all_windows_contain": true
+  },
+  {
+   "frac": 256,
+   "n_windows": 98,
+   "n_adjoint": 1,
+   "crude_peak_lo": 2.596604735193378e-05,
+   "crude_peak_hi": 2.718403170745257e-05,
+   "crude_width_pct": 4.5835731145634595,
+   "crude_all_contain": true,
+   "peak_lo": 2.6551623490771026e-05,
+   "peak_hi": 2.659496620244841e-05,
+   "width_pct": 0.16310922800983335,
+   "peak_contains": true,
+   "all_windows_contain": true
+  }
+ ]
+}

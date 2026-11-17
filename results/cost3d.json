@@ -1,0 +1,56 @@
+{
+ "levels": [
+  {
+   "N": 5,
+   "h_mm": 5.0,
+   "edges": 604,
+   "edges_fine": 4184,
+   "seconds": 0.0,
+   "width_pct": 1863.4389759211847,
+   "width_c_pct": 336.3670521248662
+  },
+  {
+   "N": 9,
+   "h_mm": 2.5,
+   "edges": 4184,
+   "edges_fine": 31024,
+   "seconds": 17.0,
+   "width_pct": 614.5903755147194,
+   "width_c_pct": 336.3670521248662
+  },
+  {
+   "N": 13,
+   "h_mm": 1.67,
+   "edges": 13428,
+   "edges_fine": 102024,
+   "seconds": 2125.0,
+   "width_pct": 290.9483509653187,
+   "width_c_pct": 290.9483509653187
+  }
+ ],
+ "rate_width": 1.8534602112515999,
+ "time_exponent": 4.055883053554114,
+ "extrapolation": [
+  {
+   "target_pct": 10.0,
+   "h_mm": 0.2709828559108071,
+   "edges": 2886074,
+   "edges_fine": 22890124,
+   "seconds_direct": 7286519961193.154
+  },
+  {
+   "target_pct": 2.5,
+   "h_mm": 0.1282659965991868,
+   "edges": 26794404,
+   "edges_fine": 213476328,
+   "seconds_direct": 6.244768719421785e+16
+  }
+ ],
+ "xcat_head": {
+  "tissue_voxels_1mm": 5476763,
+  "tissue_voxels_2mm": 684595,
+  "box_voxels_1mm": 21458944,
+  "edges_box_1mm": 150212608,
+  "edges_box_2mm": 18776576
+ }
+}
